@@ -1,0 +1,90 @@
+// 主题色配置文件
+
+// 默认主色调
+$default_color: #099;
+// 主色调 hover
+$default_hover_color: #12adad;
+// 暗色
+$gray_color: #c0ccda;
+// 字体颜色
+$font_color: #666666;
+$white_color: #ffffff;
+
+header {
+    background: $default_color;
+}
+
+.event-tools {
+    .tools-btn {
+        border: 1px solid $default_color;
+        background: $default_color;
+
+        &:hover {
+            background: $default_hover_color;
+        }
+    }
+}
+
+.event-add {
+    .n-input {
+        border: 1px solid $gray_color;
+        &:focus {
+            border: 1px solid $default_hover_color;
+        }
+    }
+
+    .add-btn {
+        border: 1px solid $default_color;
+        background: $default_color;
+
+        &:hover {
+            background: $default_hover_color;
+        }
+    }
+}
+
+.event-content {
+    .event-tab {
+        background: $default_color;
+    }
+
+    .event-box {
+        .event-list {
+            .event-con {
+                color: $font_color;
+            }
+            .cancel-btn:hover {
+                border: 1px solid $default_color;
+                color: $default_color;
+            }
+        }
+    }
+}
+
+.event-all {
+    .table-box {
+        .edit-input,
+        .event-table {
+            button {
+                background: $default_color;
+            }
+        }
+    }
+}
+
+.dialog {
+    .cancel-btn {
+        background: $white_color;
+        border: 1px solid $gray_color;
+    }
+    .dialog-btns {
+        .sure-btn {
+            border: 1px solid $default_color;
+            background: $default_color;
+
+            &:hover {
+                background: $default_hover_color;
+            }
+        }
+    }
+}
